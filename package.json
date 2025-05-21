@@ -1,6 +1,6 @@
 {
   "name": "@aaqu/node-red-dashboard-2-portal-auth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "portal-auth is an authentication module for dashboard 2, designed specifically for Portal, the instance manager for Node-RED",
   "keywords": [
     "portal",

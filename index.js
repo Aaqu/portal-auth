@@ -24,7 +24,6 @@ module.exports = function(RED) {
        * @returns {object} - Setup object passed to the Client
        */
       onSetup: (RED, config, req, res) => {
-        console.log(req.portal)
         return {
           // must ALWAYS return socketio.path if using this hook
           socketio: {
