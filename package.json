@@ -1,0 +1,20 @@
+{
+  "name": "node-red-dashboard-2-portal-auth",
+  "version": "0.1.0",
+  "description": "portal-auth is an authentication module for dashboard 2, designed specifically for Portal, the instance manager for Node-RED",
+  "main": "index.js",
+  "author": {
+    "name": "Mazur Albert",
+    "url": "mazuralbert.pl"
+  },
+  "repository": {
+    "url": "https://github.com/Aaqu/portal-auth"
+  },
+  "node-red": {
+    "plugins": {
+      "node-red-dashboard-2-portal-auth": "index.js"
+    }
+  },
+  "license": "Apache-2.0",
+  "dependencies": {}
+}

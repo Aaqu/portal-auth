@@ -1,0 +1,21 @@
+<script type="text/javascript">
+  RED.plugins.registerPlugin('node-red-dashboard-2-portal-auth', {
+    type: 'node-red-dashboard-2',
+    // tabs: [
+    //   {
+    //     id: 'my-tab-id',
+    //     label: 'My Tab',
+    //     /**
+    //      * Runs when tabs are first created
+    //      * @param {object} base - ui-base node for which this sidebar represents
+    //      * @param {object} parent - DOM element to append content to
+    //      */
+    //     init (base, parent) {
+    //       // add some content to the tab
+    //     }
+    //   }
+    // ],
+    auth: true, // Declares to Dashboard 2.0 whether this should list in the "Client Data" tab
+    description: 'portal-auth', // If "auth: true", this is used in the "Client Data" tab of the Dashboard Sidebar
+  })
+</script>
