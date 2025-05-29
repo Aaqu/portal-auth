@@ -9,13 +9,13 @@ The module is prepared to work with subdomains and passes cookies accordingly.
 To connect to the external application with users, you must create an endpoint at `http://yourportal/auth-endpoint` that returns object with `username` and optional user permissions. Make sure to check the `portal-perms-key` header in the incoming request and verify that it matches your configured key `PORTAL_PERMS_KEY=SECRETKEY`. If the key does not match, the endpoint should return an appropriate error response (e.g., HTTP 403 Forbidden).
 
 ### node-red .env file
-```
+```env
 PORTAL_PERMS_URL=http://yourportal/auth-endpoint
 PORTAL_PERMS_KEY=SECRETKEY
 ```
 
 ### beta node-red settings.js dashboard middlewares config
-```
+```js
   // beta
   // todo find better solution for display error on client. Now is "There was an error loading the Dashboard.".
   // todo remove console logs
